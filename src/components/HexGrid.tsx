@@ -101,6 +101,8 @@ export default function HexGrid({ modules }: HexGridProps) {
       description: "",
       icon: "",
       color: "",
+      category: "",
+      position: { x: 0, y: 0 },
     });
   }
 
