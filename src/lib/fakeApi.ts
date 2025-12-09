@@ -1,45 +1,3 @@
-// import { ModuleItem } from "@/types/module";
-
-// export async function getModules(): Promise<ModuleItem[]> {
-//   return [
-//     {
-//       id: 1,
-//       title: "Mission",
-//       subtitle:
-//         "Define the mission and contextual framework of the educational institution",
-//     },
-//     {
-//       id: 2,
-//       title: "Super Maker",
-//       subtitle: "Hands-on learning, creativity, collaboration",
-//     },
-//     { id: 3, title: "Electives", subtitle: "STEM & Arts and Humanities" },
-//     { id: 4, title: "Boost", subtitle: "Support | Extra Help" },
-//     { id: 5, title: "COMP 3", subtitle: "Competence | Digital & AI Literacy" },
-//     { id: 6, title: "College Expo", subtitle: "Experience | Guidance" },
-//     { id: 7, title: "C.A.R.E.", subtitle: "Support & Wellbeing" },
-//     {
-//       id: 8,
-//       title: "Family Circle",
-//       subtitle: "Engagement, Family partnership",
-//     },
-//     { id: 9, title: "Science", subtitle: "Lab | Exploration | Projects" },
-//     { id: 10, title: "Math", subtitle: "Math mastery" },
-//     { id: 11, title: "COMP 3", subtitle: "Digital Literacy (Bottom)" },
-//     {
-//       id: 12,
-//       title: "Wayfinding & Cross Cutting Thinking",
-//       subtitle: "Navigation | Big picture",
-//     },
-//     { id: 13, title: "College Expo (Top)", subtitle: "Experience | Exposure" },
-//     {
-//       id: 14,
-//       title: "Student Wellbeing",
-//       subtitle: "Support structure for students",
-//     },
-//   ];
-// }
-
 import { ModuleItem } from "@/types/module";
 
 export async function getModules(): Promise<ModuleItem[]> {
@@ -47,7 +5,8 @@ export async function getModules(): Promise<ModuleItem[]> {
     {
       id: 1,
       title: "Mission",
-      subtitle: "Our Mission",
+      subtitle:
+        "Define the mission and contextual framework of the educational institution",
       exp: 0,
       status: "active",
       description: "",
@@ -56,18 +15,18 @@ export async function getModules(): Promise<ModuleItem[]> {
     },
     {
       id: 2,
-      title: "Vision",
-      subtitle: "Our Vision",
+      title: "Super Maker",
+      subtitle: "Hands-on learning, creativity, collaboration",
       exp: 0,
       status: "active",
       description: "",
       category: "general",
       position: { x: 1, y: 0 },
     },
-     {
+    {
       id: 3,
-      title: "Mission",
-      subtitle: "Our Mission",
+      title: "Electives",
+      subtitle: "STEM & Arts and Humanities",
       exp: 0,
       status: "active",
       description: "",
@@ -76,18 +35,18 @@ export async function getModules(): Promise<ModuleItem[]> {
     },
     {
       id: 4,
-      title: "Vision",
-      subtitle: "Our Vision",
+      title: "Boost",
+      subtitle: "Support | Extra Help",
       exp: 0,
       status: "active",
       description: "",
       category: "general",
       position: { x: 1, y: 0 },
     },
-     {
+    {
       id: 5,
-      title: "Mission",
-      subtitle: "Our Mission",
+      title: "COMP 3",
+      subtitle: "Competence | Digital & AI Literacy",
       exp: 0,
       status: "active",
       description: "",
@@ -96,18 +55,18 @@ export async function getModules(): Promise<ModuleItem[]> {
     },
     {
       id: 6,
-      title: "Vision",
-      subtitle: "Our Vision",
+      title: "College Expo",
+      subtitle: "Experience | Guidance",
       exp: 0,
       status: "active",
       description: "",
       category: "general",
       position: { x: 1, y: 0 },
     },
-     {
+    {
       id: 7,
-      title: "Mission",
-      subtitle: "Our Mission",
+      title: "C.A.R.E.",
+      subtitle: "Support & Wellbeing",
       exp: 0,
       status: "active",
       description: "",
@@ -116,18 +75,18 @@ export async function getModules(): Promise<ModuleItem[]> {
     },
     {
       id: 8,
-      title: "Vision",
-      subtitle: "Our Vision",
+      title: "Family Circle",
+      subtitle: "Engagement, Family partnership",
       exp: 0,
       status: "active",
       description: "",
       category: "general",
       position: { x: 1, y: 0 },
     },
-     {
+    {
       id: 9,
-      title: "Mission",
-      subtitle: "Our Mission",
+      title: "Science",
+      subtitle: "Lab | Exploration | Projects",
       exp: 0,
       status: "active",
       description: "",
@@ -136,18 +95,18 @@ export async function getModules(): Promise<ModuleItem[]> {
     },
     {
       id: 10,
-      title: "Vision",
-      subtitle: "Our Vision",
+      title: "Math",
+      subtitle: "Math mastery",
       exp: 0,
       status: "active",
       description: "",
       category: "general",
       position: { x: 1, y: 0 },
     },
-     {
+    {
       id: 11,
-      title: "Mission",
-      subtitle: "Our Mission",
+      title: "COMP 3",
+      subtitle: "Digital Literacy (Bottom)",
       exp: 0,
       status: "active",
       description: "",
@@ -156,18 +115,18 @@ export async function getModules(): Promise<ModuleItem[]> {
     },
     {
       id: 12,
-      title: "Vision",
-      subtitle: "Our Vision",
+      title: "Wayfinding & Cross Cutting Thinking",
+      subtitle: "Navigation | Big picture",
       exp: 0,
       status: "active",
       description: "",
       category: "general",
       position: { x: 1, y: 0 },
     },
-     {
+    {
       id: 13,
-      title: "Mission",
-      subtitle: "Our Mission",
+      title: "College Expo (Top)",
+      subtitle: "Experience | Exposure",
       exp: 0,
       status: "active",
       description: "",
@@ -176,8 +135,8 @@ export async function getModules(): Promise<ModuleItem[]> {
     },
     {
       id: 14,
-      title: "Vision",
-      subtitle: "Our Vision",
+      title: "Student Wellbeing",
+      subtitle: "Support structure for students",
       exp: 0,
       status: "active",
       description: "",
